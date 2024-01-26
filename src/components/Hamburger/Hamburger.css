@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.hamburger-main{
+    width: 74px;
+    height: 74px;
+    background-color: blue;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger-icon {
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.open-menu .burger-icon.line-1 {
+    transform: translate(-50%, -50%) rotate(45deg);
+    position: absolute;
+    left: 50%;
+}
+
+.open-menu .burger-icon.line-2 {
+    opacity: 0;
+}
+
+.open-menu .burger-icon.line-3 {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    position: absolute;
+    left: 50%;
+}

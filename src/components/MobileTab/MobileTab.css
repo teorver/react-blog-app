@@ -1,0 +1,23 @@
+.mobile-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-tab{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.tab-text{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 10px;
+    padding: 0;
+}
+
+.mobile-img{
+    width: 70px;
+    height: 70px;
+}

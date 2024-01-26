@@ -1,0 +1,108 @@
+.signin-wrapper{
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.back-to-home-btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.sign-title{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    font-size: 36px;
+}
+
+.signup-form{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid grey;
+    gap: 20px;
+}
+
+.sing-up-controls{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0;
+}
+
+.form-input{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    gap: 9px;
+}
+
+.signup-input{
+    margin: 0;
+    padding: 15px;
+}
+
+.forgot-btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.sign-in-btn{
+    width: 100%;
+    background-color: blue;
+    border-radius: 0;
+    border: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+
+.sign-in-btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.signup-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.sign-up-text{
+    display: flex;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sign-up-btn{
+    color: blue;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: white;
+    margin: 0;
+}
+
+.sign-up-btn:hover{
+    color: rgba(0, 0, 255, 0.7);
+}

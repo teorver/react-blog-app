@@ -1,0 +1,87 @@
+.post-wrapper{
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.post-id{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.selected-post{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0;
+    gap: 30px;
+}
+
+.post-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
+
+.post-img{
+    width: 600px;
+    height: 500px;
+}
+
+.post-text{
+    width: 600px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.post-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 180px;
+}
+
+.like-dislike{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+
+.post-btn{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0 20px;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.bookmark-btn{
+    width: 25px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.save-to-favourite{
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: lightgrey;
+}
+
+.save-to-text{
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.wrapper{
+    width: 950px;
+    padding: 0;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.tab-wrapper{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    margin: 0;
+}
+
+.tab-wrapper:hover{
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    color: blue;
+}
+
+.tab-wrapper:disabled{
+    color: darkgrey;
+    border-radius: 0;
+    border-bottom: 0;
+    font-weight: bold;
+}

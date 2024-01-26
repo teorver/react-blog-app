@@ -1,0 +1,54 @@
+.sign-wrapper{
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.back-to-home-btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.sign-title{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    font-size: 36px;
+}
+
+.success-form{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid grey;
+}
+
+.success-text{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.go-home-btn{
+    width: 100%;
+    background-color: blue;
+    border-radius: 0;
+    border: none;
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.go-home-btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+    background-color: rgba(0, 0, 255, 0.7);
+}
